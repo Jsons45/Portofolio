@@ -1,0 +1,215 @@
+/* CREATED BY JASON */
+body {
+  font-family: "Poppins";
+  background-image: url(IMG/ME2.jpg);
+  background-size: contain;
+  background-color: midnightblue;
+}
+.jumbotron {
+  padding-top: 8rem;
+  color: white;
+  margin-left: 25rem;
+}
+svg {
+  margin-top: -12rem;
+}
+
+.card-img {
+  background-color: white;
+  box-shadow: 8px 15px rgba(0, 0, 0, 0.411);
+}
+.card-img-overlay:hover {
+  opacity: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.card-img-overlay {
+  opacity: 0%;
+}
+#AboutMe {
+  color: white;
+}
+
+.body {
+  background-color: midnightblue;
+}
+
+.maincontainer {
+  position: relative;
+  width: 333px;
+  height: 360px;
+  margin-left: -2rem;
+}
+.kartu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.kartu:hover {
+  transform: rotateY(180deg);
+}
+.depan {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 8px 15px rgba(0, 0, 0, 0.411);
+  text-align: center;
+}
+
+.belakang {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  box-shadow: 8px 15px rgba(0, 0, 0, 0.411);
+  transform: rotateY(180deg);
+}
+
+/* nav */
+.hero {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.nav-link {
+  cursor: pointer;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.nav-link:hover {
+  text-decoration: midnightblue underline;
+}
+/* end */
+
+/* sosial media */
+.sosialmedia {
+  display: none;
+}
+.iconif {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2rem;
+  color: black;
+}
+.instalogo {
+  width: 35px;
+  height: 35px;
+}
+.twitterlogo {
+  width: 35px;
+  height: 35px;
+}
+.iconif:hover {
+  color: midnightblue;
+  cursor: pointer;
+}
+.container-sosmed {
+  background-color: white;
+  box-shadow: 8px 15px rgba(0, 0, 0, 0.411);
+  z-index: 1;
+  margin-right: 5rem;
+  margin-top: 20rem;
+  border-radius: 10px;
+}
+.aboutme1 {
+  margin-left: 18rem;
+}
+.aboutme2 {
+  margin-right: 23rem;
+  margin-top: 5.5rem;
+}
+.code {
+  margin-bottom: -20em;
+  width: 150px;
+  height: 150px;
+}
+
+/* end*/
+/* mobile nav */
+@media (max-width: 768px) {
+  .jumbotron {
+    margin-left: 0rem;
+  }
+  .container-sosmed {
+    display: none;
+  }
+  .sosialmedia {
+    margin-top: -5rem;
+    color: white;
+    display: block;
+  }
+  .iconif {
+    margin-right: 1rem;
+    color: white;
+    margin-top: 5.5rem;
+  }
+  .minilogo {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+  .programming {
+    font-size: medium;
+  }
+
+  .html5 {
+    margin-right: 0.1rem;
+  }
+  svg {
+    margin-bottom: -20rem;
+    margin-right: -3rem;
+  }
+  .body {
+    margin-top: 5rem;
+    margin-right: -3rem;
+  }
+  .aboutme1,
+  .aboutme2 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .aboutme2 {
+    margin-top: 6.5rem;
+  }
+  body {
+    background-attachment: fixed;
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    margin-right: -1rem;
+  }
+  .code {
+    margin-top: -10rem;
+    margin-left: -3rem;
+    width: 150px;
+    height: 150px;
+  }
+
+  .maincontainer {
+    width: 333px;
+    height: 360px;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+  }
+  .design {
+    margin-top: -3rem;
+  }
+  .web {
+    margin-top: -5rem;
+  }
+  .hero {
+    box-shadow: 8px 20px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.726);
+  }
+}
+/* end */
